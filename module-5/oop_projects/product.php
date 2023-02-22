@@ -17,4 +17,17 @@ class Product{
         $this->price        = $price;
         $this->description  = $description;
     }
+    
+    public fucntion getName(){
+        return $this->name;
+    }
+
+    
+    public fucntion getPrice(){
+        return $this->price;
+    }
+
+    public fucntion getDescription(){
+        return $this->description;
+    }
 }
