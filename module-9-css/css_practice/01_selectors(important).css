@@ -57,4 +57,11 @@
 //   margin: 0;
 //   padding: 0;
 // }
+
+// Group Selector: Applies style to a group of elements together
+
+// h1, h2, p{
+//    color: red;
+//    font-size: 16px;
+// }
 */

@@ -1,0 +1,7 @@
+img{
+    height: auto;
+    width: 150px;
+    /* filter: blur(1px); */
+    /* filter:brightness(.4); */
+    filter:contrast(200%)
+}

@@ -1,0 +1,20 @@
+/* 
+The CSS display property is used to define how an HTML element should be displayed on a web page. It controls the type of box used to render the element, and therefore how it interacts with other elements on the page.
+
+There are several possible values for the display property:
+
+block: the element will be displayed as a block-level element, taking up the full width available in its parent container, and forcing other elements to appear below it.
+
+inline: the element will be displayed as an inline-level element, taking up only the space needed for its content, and allowing other inline-level elements to appear alongside it.
+
+inline-block: the element will be displayed as an inline-level element, but will also have a block-like behavior, allowing it to have padding, margins, and a width and height.
+
+none: the element will not be displayed at all, and its space will be removed from the layout.
+
+flex: the element will be displayed as a flexible container, allowing its child elements to be laid out in flexible rows or columns.
+grid: the element will be displayed as a grid container, allowing its child elements to be laid out in a grid pattern.
+
+table: the element will be displayed as a table element, with its child elements arranged in a table layout.
+The display property can be used to control the layout and positioning of elements on a web page, and is an important part of CSS styling.
+
+*/

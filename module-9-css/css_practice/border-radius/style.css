@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div1,
+.div2,
+.div3{
+    height: 100px;
+    width: 100px
+}
+
+.div1{
+    background-color: red;
+    border-radius: 10px 20px 30px 40px;
+}
+
+.div2{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.div3{
+    background-color: green;
+    border-radius: 50px 0 50px 0;
+}
+
+
+
+/* Display property */
+.display p{
+    font-size: 50px;
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block */
+    /* display: table; */
+    margin: 10px;
+    padding: 20px;
+}
+
+
+/* float property */
+img{
+    /* float: right; */
+    /* float:left; */
+    /* float: inherit; */
+    float: initial;
+}
+
+
+.btn{
+    width: 80px;
+    height: 40px;
+    background-color: darkolivegreen;
+    color:aliceblue;
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+/* hover property */
+.btn:hover{
+    background-color: blue;
+    color: black;
+}

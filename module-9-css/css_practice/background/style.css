@@ -1,0 +1,8 @@
+.background{
+    /* background-color: aqua; */
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+    background-attachment: fixed;
+}
