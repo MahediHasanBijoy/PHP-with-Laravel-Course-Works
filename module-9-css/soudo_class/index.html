@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus{
+            outline: none;
+            border: 2px solid blueviolet;
+            border-radius: 3px;
+            padding: 5px;
+            animation-name: rotate;
+            animation-duration: 1s;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(10deg);
+            }
+            100% {
+                transform: rotate(0);
+            }
+            
+        }
+
+        input:checked{
+            width: 20px;
+            height: 20px;
+        }
+
+        button:disabled{
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">name</label>
+        <input type="text" id="name"><br>
+        <input type="checkbox">check if you are Male
+        <br>
+        <button disabled>save</button>
+    </form>
+</body>
+</html>
