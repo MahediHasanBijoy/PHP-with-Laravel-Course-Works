@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Loop over array</h1>
+
+
+    <script>
+        var city = ['dhaka', 'cumilla', 'sylhet', 'barishal'];
+
+        for(var i = 0; i < 4; i++){
+            document.write(city[i]+"<br>");
+        }
+        // for in loop
+        for (const key in city) {
+            document.write(city[key]+"<br>");
+        }
+        // for of loop
+        for (const value of city) {
+            document.write(value+"<br>");
+        }
+
+
+        var person = {name: "bijoy", age: 30, status: "active", gender:"male"};
+        // for in loop over object
+        for (const key in person) {
+            document.write(person[key] + "<br>");
+            
+        }
+
+    </script>
+</body>
+</html>
