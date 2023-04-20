@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="alertSuccess()">Alert</button>
+    <button onclick="confirmUser()">Confirm</button>
+    <button onclick="promptUser()">Prompt</button>
+    <button onclick="openNewWindow()">Open Youtube</button>
+    <button onclick="closeCurrentWindow()">Close Window</button>
+
+    <script>
+        function alertSuccess(){
+            alert("Success");
+        }
+
+        function confirmUser(){
+            confirm("User confirmed");
+        }
+
+        function promptUser(){
+            var input = prompt("User prompt");
+            console.log(input);
+        }
+
+        function openNewWindow(){
+            open("https://youtube.com");
+        }
+
+        function closeCurrentWindow(){
+            close();
+        }
+    </script>
+</body>
+</html>
