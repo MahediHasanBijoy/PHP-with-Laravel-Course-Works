@@ -7,13 +7,34 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <button class="click">Onclick</button>
+    <button class="mouseover">MouseOver</button>
+    <button class="mouseleave">MouseLeave</button>
+    <input type="text" class="name">
 
 
     <script>
-        document.onload = function(){
-            alert("hello world");
-            console.log("hello world");
+        window.onload = function(){
+            document.querySelector(".click").addEventListener("click", function(){
+                alert("clicked");
+            });
+            document.querySelector(".mouseover").addEventListener("mouseover", function(){
+                alert("mouser over");
+            });
+            document.querySelector(".mouseleave").addEventListener("mouseleave", function(){
+                alert("mouser leave");
+            });
+            document.querySelector(".name").addEventListener("change", function(){
+                alert("input changed");
+            });
+            document.querySelector(".name").addEventListener("keydown", function(){
+                console.log("keydown");
+            });
+
+            document.querySelector(".name").addEventListener("keyup", function(){
+                console.log("keyup")
+            });
+
         }
 
     </script>
